@@ -1,8 +1,26 @@
 aid: sonus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sonus.png
 name: Sonus
-description: 'Sonus is a company surfaced as a portfolio company of matrix-partners and added to the API
-  Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Sonus is the API Evangelist network profile for the company that began as Sonus Networks,
+  an early pioneer of VoIP softswitches and session border controllers (SBCs), and which today
+  operates as Ribbon Communications (NASDAQ: RBBN) following its 2017 merger with GENBAND.
+  Ribbon builds real-time communications, IP optical networking, session border control, cloud
+  and edge, and network security and analytics software for service providers and enterprises.
+  This profile originated as a Matrix Partners portfolio lead. Ribbon publishes enterprise
+  product, support, and responsible-disclosure resources but no public developer API or open
+  API specification was found at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/sonus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Infrastructure
+- Communications
+- Networking
+- Telecommunications
+- Session Border Controller
+- VoIP
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://ribboncommunications.com
+- type: Support
+  url: https://ribboncommunications.com/services/support-services/ribbon-support-portal
+- type: Security
+  url: https://ribboncommunications.com/company/company-policies/policies/responsible-disclosure-policy
+- type: VulnerabilityDisclosure
+  url: security/sonus-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sonus-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

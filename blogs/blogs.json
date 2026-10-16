@@ -1,0 +1,21 @@
+{
+  "repo": "sonus",
+  "feeds": [
+    {
+      "source": "https://ribboncommunications.com/company/media-center/blog",
+      "feed_url": "https://ribboncommunications.com/rss/blog",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://ribboncommunications.com/rss/blog",
+      "feed_url": "https://ribboncommunications.com/rss/blog",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
